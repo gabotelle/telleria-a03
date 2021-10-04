@@ -1,12 +1,0 @@
-
-P
-java:S1118":Add a private constructor to hide the implicit public one.( Ÿ³°
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊŒØ“
-T
-java:S1854 "9Remove this useless assignment to local variable "index".(ìè–˜üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(•ˆ—–
-E
-java:S1481 "*Remove this unused "index" local variable.(ìè–˜üÿÿÿÿ
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(Šúİ
-
-java:S1319"fThe type of "employees" should be an interface such as "Map" rather than the implementation "HashMap".(Îßƒóüÿÿÿÿ

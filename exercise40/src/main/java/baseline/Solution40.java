@@ -32,9 +32,14 @@ public class Solution40 {
         boolean[] index = new boolean[6];
         for (int i = 1; i <= 6; i++) {
             if(employees.get(i).getLastName().contains(name) || employees.get(i).getFirstName().contains(name)){
-                System.out.print(employees.get(i).toString());
+                String fullName = employees.get(i).getFirstName() + " " + employees.get(i).getLastName();
+                System.out.printf("%n%-19s | %-18s | %s", fullName, employees.get(i).getPosition(), employees.get(i).getSeparationDate());
             }
 
         }
+    }
+
+    public static void main(String[] args) {
+        createEmployees();
     }
 }

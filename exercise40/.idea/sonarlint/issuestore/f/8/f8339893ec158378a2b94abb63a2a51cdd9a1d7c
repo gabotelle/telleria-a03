@@ -1,7 +1,0 @@
-
-¡
-java:S1845!"Rename method "ToString" to prevent any misunderstanding/clash with method "toString" defined in superclass "java.lang.Object".(ûÈ¾õøÿÿÿÿ8¤Ì±ËÄ/
-
-java:S6206"mRefactor this class declaration to use 'record Employee(String firstName, String lastName, String posit...)'.(–™ˆ¯üÿÿÿÿ8‘­±ËÄ/
-o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÈ¾õøÿÿÿÿ8ªÌ±ËÄ/
-U	java:S106#"9Replace this use of System.out or System.err by a logger.(ŠíŒß8­Ì±ËÄ/
