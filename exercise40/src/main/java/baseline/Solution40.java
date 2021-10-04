@@ -1,5 +1,6 @@
 package baseline;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -25,7 +26,15 @@ public class Solution40 {
         System.out.print("Enter a search string: ");
         return input.nextLine();
     }
-    public static void searchEmployee(String name){
+    public static void searchEmployee(HashMap<Integer, Employee> employees, String name){
+        System.out.printf("%nResults:%n%nName                | Position           | Separation Date%n" + "" +
+                "--------------------|--------------------|--------------------");
+        boolean[] index = new boolean[6];
+        for (int i = 1; i <= 6; i++) {
+            if(employees.get(i).getLastName().contains(name) || employees.get(i).getFirstName().contains(name)){
+                System.out.print(employees.get(i).toString());
+            }
 
+        }
     }
 }

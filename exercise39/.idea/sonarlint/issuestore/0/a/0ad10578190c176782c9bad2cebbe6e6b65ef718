@@ -1,7 +1,6 @@
 
 N	java:S106"9Replace this use of System.out or System.err by a logger.(Üõ¢
-N	java:S1064"9Replace this use of System.out or System.err by a logger.(Ï€ƒ¡
-N	java:S106C"9Replace this use of System.out or System.err by a logger.(¨Û´ò
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(¨Û´ò
 L
 java:S1128	"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8à¬®ÆÄ/
 

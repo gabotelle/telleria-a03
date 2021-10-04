@@ -49,7 +49,6 @@ public class Solution39
     //    while is not empty
     public static void printSortedEmployees(HashMap<Integer, Employee> employees){
         if(employees.isEmpty()){
-            System.out.println("WTF");
             return;
         }
         int index = (int)(employees.keySet().toArray()[0]);
